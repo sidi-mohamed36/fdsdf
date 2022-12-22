@@ -48,6 +48,7 @@ To access modeler please open the url in your browser:
 http://$DOCKER_IP/modeling
 ```
 You will be redirected to keycloak where you have to use credentials modeler/password
+
 ![Feedback and reviews website](/MA.PNG 'Feedback')
 
 ### Start Application
