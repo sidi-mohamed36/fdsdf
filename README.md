@@ -29,6 +29,20 @@ git clone https://github.com/Activiti/activiti-cloud-examples
 cd activiti-cloud-examples/docker-compose
 ```
 
+## Configure Your Environment
+You need to edit ```.env``` file to configure DOCKER_IP property based on your OS and Docker VM type.
+Use your local computer IP address for Docker for Desktop on Linux, Mac or Windows
+Use ```docker-machine ip``` command if you use Docker Toolbox
+Don't use 127.0.0.1 or localhost
+
+
+## How To Run Activity Cloud
+### Start Modeler
+```make modeler```
+After starting Modeler, wait for the containers to start. You can check the status by running ```make ps``` and ```make logs``` command to make sure that the containers are ready.
+To access modeler please open the url in your browser:
+
+```http://$DOCKER_IP/modeling```
 
 
 
