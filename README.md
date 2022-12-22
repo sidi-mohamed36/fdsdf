@@ -29,10 +29,10 @@ cd activiti-cloud-examples/docker-compose
 ```
 
 ## Configure Your Environment
-You need to edit ```.env``` file to configure DOCKER_IP property based on your OS and Docker VM type.
-Use your local computer IP address for Docker for Desktop on Linux, Mac or Windows
-Use ```docker-machine ip``` command if you use Docker Toolbox
-Don't use 127.0.0.1 or localhost
+You need to edit ```.env``` file to configure DOCKER_IP property based on your OS and Docker VM type you find him on.
+- Use your local computer IP address for Docker for Desktop on Linux, Mac or Windows
+- Use ```docker-machine ip``` command if you use Docker Toolbox
+- Don't use 127.0.0.1 or localhost
 
 
 ## How To Run Activity Cloud
@@ -54,7 +54,7 @@ You will need to use Postman to use Activiti Rest Apis
 Start Postman and add to Postman collection Activiti v7 REST API.postman_collection.json located in [https://github.com/Activiti/activiti-cloud-examples](https://github.com/Activiti/activiti-cloud-examples)
 Then at the top right choose manage environment then use your own ip in current value tab.
 Then use activiti as default environment. 
-To start work execute getKeycloakToken hruser in Postman Keycloak collection. Then run startProcess in rb-my-app Postman collection.
+To start work execute getKeycloakToken hruser in Postman Keycloak collection. Then run startProcess in rb-my-app Postman collection. 
 
 
 
